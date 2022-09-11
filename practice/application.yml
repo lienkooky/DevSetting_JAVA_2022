@@ -1,0 +1,18 @@
+server:
+  port: 8084  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: GMAIL 아이디
+    password: "GMAIL 비밀번호"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
